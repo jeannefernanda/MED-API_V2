@@ -6,7 +6,6 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import med.vol.api.endereco.Endereco;
-import med.vol.api.medicos.DadosAtualizacaoMedicos;
 
 @Table(name = "medicos")
 @Entity(name = "Medico")

@@ -5,14 +5,12 @@ import med.vol.api.medico.DadosCadastroMedico;
 import med.vol.api.medico.DadosListagemMedico;
 import med.vol.api.medico.Medico;
 import med.vol.api.medico.MedicoRepository;
-import med.vol.api.medicos.DadosAtualizacaoMedicos;
+import med.vol.api.medico.DadosAtualizacaoMedicos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("medicos")
