@@ -22,7 +22,7 @@ public class PacienteController {
     @Autowired
     private PacienteRepository repository;
     @PostMapping
-    //@Transactional
+    @Transactional
     public void cadastrar(@RequestBody @Valid DadosCadastroPaciente dados){
         repository.save(new Paciente(dados));
     }
